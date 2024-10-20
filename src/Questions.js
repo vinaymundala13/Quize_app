@@ -18,7 +18,7 @@ const Questions = ({ data, onAnswer, onNext, questionNumber, totalQuestions }) =
 
   return (
     <div className="questions-container">
-        <h1>Start Quize</h1>
+        <h1>Start Quiz</h1>
       <p>{data.questions}</p>
       <div className="options-container">
         {data.options.map((option, index) => (
